@@ -38,6 +38,7 @@ const NewExpense = (props) => {
     setEnteredTitle("");
     setEnteredAmount("");
     setEnteredDate("");
+    stopEditingHandler();
   };
 
   const startEditingHandler = () => {
